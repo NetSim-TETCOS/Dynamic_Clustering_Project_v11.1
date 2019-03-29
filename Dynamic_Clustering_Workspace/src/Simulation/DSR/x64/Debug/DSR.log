@@ -1,0 +1,48 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  CheckRouteFound.c
+  DSR.c
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dsr.c(40): warning C4013: 'fn_NetSim_Dynamic_Clustering_Init' undefined; assuming extern returning int
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dsr.c(169): warning C4013: 'fn_NetSim_dynamic_clustering_run' undefined; assuming extern returning int
+  Dynamic_Clustering.c
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dynamic_clustering.c(58): warning C4013: 'fn_NetSim_dynamic_clustering_IdentifyCluster' undefined; assuming extern returning int
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dynamic_clustering.c(54): warning C4101: 'i': unreferenced local variable
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dynamic_clustering.c(51): warning C4101: 'nInterface': unreferenced local variable
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dynamic_clustering.c(111): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dynamic_clustering.c(122): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dynamic_clustering.c(129): warning C4018: '<': signed/unsigned mismatch
+  MaintBuffer.c
+  MATLAB_Interface.c
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\stdbool.h(16): warning C4005: 'false': macro redefinition
+  c:\program files\matlab\r2016a\extern\include\tmwtypes.h(761): note: see previous definition of 'false'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\stdbool.h(17): warning C4005: 'true': macro redefinition
+  c:\program files\matlab\r2016a\extern\include\tmwtypes.h(764): note: see previous definition of 'true'
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\include\main.h(212): warning C4005: 'printf': macro redefinition
+  c:\program files\matlab\r2016a\extern\include\mex.h(190): note: see previous definition of 'printf'
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\matlab_interface.c(117): warning C4013: 'fn_netsim_dynamic_form_clusters' undefined; assuming extern returning int
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\matlab_interface.c(118): warning C4013: 'fn_netsim_assign_cluster_heads' undefined; assuming extern returning int
+  Network_Layer_Ack.c
+  PacketProcessing.c
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\packetprocessing.c(36): warning C4013: 'fn_NetSim_dynamic_clustering_GetNextHop' undefined; assuming extern returning int
+  RouteCache.c
+  RouteError.c
+  RouteReply.c
+  RouteRequest.c
+  SendBuffer.c
+  SourceRoute.c
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\sourceroute.c(64): warning C4013: 'fn_NetSim_dynamic_clustering_CheckDestination' undefined; assuming extern returning int
+  Generating Code...
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dynamic_clustering.c(103): warning C4716: 'fn_NetSim_dynamic_clustering_run': must return a value
+c:\users\tetcos\desktop\dynamic_clustering_v11_1\src\simulation\dsr\dynamic_clustering.c(115): warning C4716: 'fn_netsim_dynamic_form_clusters': must return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1202,5): warning MSB8012: TargetPath(C:\Users\TETCOS\Desktop\Dynamic_Clustering_v11_1\src\Simulation\DSR\..\..\..\bin\bin_x64\DSR.dll) does not match the Linker's OutputFile property value (C:\Users\TETCOS\Desktop\Dynamic_Clustering_v11_1\bin\bin_x64\libDSR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1204,5): warning MSB8012: TargetName(DSR) does not match the Linker's OutputFile property value (libDSR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  List.lib(List.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\..\..\bin\bin_x64\DSR.lib and object ..\..\..\bin\bin_x64\DSR.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+List.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'List.lib(List.obj)' or at 'C:\Users\TETCOS\Desktop\Dynamic_Clustering_v11_1\bin\bin_x64\List.pdb'; linking object as if no debug info
+DSR.lib(DSR.obj) : warning LNK4099: PDB 'DSRLib.pdb' was not found with 'DSR.lib(DSR.obj)' or at 'C:\Users\TETCOS\Desktop\Dynamic_Clustering_v11_1\bin\bin_x64\DSRLib.pdb'; linking object as if no debug info
+DSR.lib(LinkLayerAck.obj) : warning LNK4099: PDB 'DSRLib.pdb' was not found with 'DSR.lib(LinkLayerAck.obj)' or at 'C:\Users\TETCOS\Desktop\Dynamic_Clustering_v11_1\bin\bin_x64\DSRLib.pdb'; linking object as if no debug info
+  DSR.vcxproj -> C:\Users\TETCOS\Desktop\Dynamic_Clustering_v11_1\src\Simulation\DSR\..\..\..\bin\bin_x64\DSR.dll
